@@ -1,3 +1,25 @@
-.App {
+.App,
+.pivot-container {
   height: 100%;
+}
+
+.App {
+  position: relative;
+}
+
+.status {
+  align-items: center;
+  display: flex;
+  inset: 0;
+  justify-content: center;
+  padding: 1rem;
+  position: absolute;
+  text-align: center;
+}
+
+.status--error {
+  background: #fff3f3;
+  color: #9b1c1c;
+  inset: 0 0 auto;
+  z-index: 10;
 }
